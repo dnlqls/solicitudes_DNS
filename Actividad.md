@@ -6,3 +6,8 @@ Why do we use it?
 ![imagen](imager.jpg)
 
 [Volver a la página](README.md)
+
+    hola tar -cvf
+    
+>comando
+>dig
