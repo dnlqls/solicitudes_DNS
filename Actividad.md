@@ -11,3 +11,7 @@ Why do we use it?
     
 >comando
 >dig
+
+Head1  | head2
+-------| ------
+1
