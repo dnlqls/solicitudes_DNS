@@ -2,7 +2,7 @@
 
 >usuado el comando dig en los sistemas operativos Linux
 
-## uso del comando 
+## Tipos de registros 
     dig <server o ipserver>
 * Ejemplo
 
@@ -11,3 +11,7 @@
 ![Ejemplo](ipserver.png)
 
 [Volver a la página](README.md)
+
+1. Mira la direcion ip del servidor de boe.es
+1. Ahora delante del dig ponemos "-x" y la direcion del boe
+1. Mira 
