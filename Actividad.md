@@ -39,23 +39,39 @@ Para ver todos los registros DNS
         dig <nombre_web.com> ANY
 ## Ejemplos
 
-**usaundo google.com
+usaundo google.com
+
+1. dig <nombre_web.com> A
 
 ![1](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/1.PNG)
 
+2. dig <nombre_web.com> AAAA
+
 ![2](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/2.PNG)
+
+3. dig <nombre_web.com> MX
 
 ![3](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/3.PNG)
 
+4. dig <nombre_web.com> SOA
+
 ![4](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/4.PNG)
+
+5. dig <nombre_web.com> NS
 
 ![5](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/5.PNG)
 
-![6](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/6.PNG)
+ 6. dig <nombre_web.com> CNAME
+ 
+ ![6](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/6.PNG)
+ 
+7. dig -x <IP_host>
 
 ![7](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/7.PNG)
 
 ![71](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/7_1.PNG)
+
+8. dig <nombre_web.com> ANY
 
 ![8](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/8.PNG)
 
