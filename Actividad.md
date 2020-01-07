@@ -37,3 +37,25 @@ Para hacer la conversion de direcion IP a nombre es con :
 Para ver todos los registros DNS 
 
         dig <nombre_web.com> ANY
+## Ejemplos
+
+**usaundo google.com
+
+![1](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/1.PNG)
+
+![2](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/2.PNG)
+
+![3](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/3.PNG)
+
+![4](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/4.PNG)
+
+![5](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/5.PNG)
+
+![6](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/6.PNG)
+
+![7](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/7.PNG)
+
+![71](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/7_1.PNG)
+
+![8](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/8.PNG)
+
