@@ -43,7 +43,7 @@ usaundo google.com
 
 1. dig <nombre_web.com> A
 
-![1](https://github.com/dnlqls/solicitudes_DNS/blob/master/imagenes/1.PNG)
+![1](./imagenes/1.PNG)
 
 2. dig <nombre_web.com> AAAA
 
