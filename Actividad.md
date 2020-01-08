@@ -46,7 +46,7 @@ usaundo google.com
 
 ![1](./imagenes/1.PNG)
 
-2. dig <nombre_web.com> AAAA
+2.2 dig <nombre_web.com> AAAA
 
 ![2](./imagenes/2.PNG)
 
