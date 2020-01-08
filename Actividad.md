@@ -10,11 +10,11 @@ Vamos a ver quien es el host del servidor(ver la direcion ip del servidor DNS de
 
         dig <nombre_web.com> A
 
-Tambien existe los registro AAAA que lo unico que difiere con los regidtros A es que en vez de ser IPv4 es en IPv6
+Tambien existe los registro AAAA que lo unico que difiere con los regidtros A es que en vez de ser IPv4 es en IPv6.
 
         dig <nombre_web.com> AAAA
 
-Esa pagina tiene un servidor de correo ? para saberlo introduciremos el siguiente comando
+Esa pagina tiene un servidor de correo ? para saberlo introduciremos el siguiente comando:
 
         dig <nombre_web.com> MX
 
@@ -78,9 +78,9 @@ Pero si lo hacia sin las 3 w no me da ningun alias ya que el alis que nos indica
 
 ![7](./imagenes/7.PNG)
 
-Google usa ese estilo de llamar a sus dispositivos de su red
+Google usa ese estilo de llamar a sus dispositivos de su red.
 
-Tambien se puede hacer la conversion usando la direcion de IPv6
+Tambien se puede hacer la conversion usando la direcion de IPv6.
 
 ![71](./imagenes/7_1.PNG)
 
