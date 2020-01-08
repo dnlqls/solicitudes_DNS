@@ -1,4 +1,4 @@
-# solicitudes_DNS
-solicitudes PRT MX SOA
+# Registro_DNS
+Registro : PRT, MX, SOA,...etc 
 
-[Actividad tipo de solicitudes](Actividad.md)
+[Actividad tipo de registro](Actividad.md)
