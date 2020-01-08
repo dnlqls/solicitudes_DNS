@@ -46,15 +46,15 @@ usaundo google.com
 
 ![1](./imagenes/1.PNG)
 
-2. dig <nombre_web.com> AAAA
+1. dig <nombre_web.com> AAAA
 
 ![2](./imagenes/2.PNG)
 
-3. dig <nombre_web.com> MX
+1. dig <nombre_web.com> MX
 
 ![3](./imagenes/3.PNG)
 
-4. dig <nombre_web.com> SOA
+1. dig <nombre_web.com> SOA
 
 ![4](./imagenes/4.PNG)
 
