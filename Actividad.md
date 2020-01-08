@@ -46,33 +46,41 @@ usaundo google.com
 
 ![1](./imagenes/1.PNG)
 
-1. dig <nombre_web.com> AAAA
+2.dig <nombre_web.com> AAAA
 
 ![2](./imagenes/2.PNG)
 
-1. dig <nombre_web.com> MX
+3.dig <nombre_web.com> MX
 
 ![3](./imagenes/3.PNG)
 
-1. dig <nombre_web.com> SOA
+4.dig <nombre_web.com> SOA
 
 ![4](./imagenes/4.PNG)
 
-5. dig <nombre_web.com> NS
+5.dig <nombre_web.com> NS
 
 ![5](./imagenes/5.PNG)
 
- 6. dig <nombre_web.com> CNAME
+ 6.dig <nombre_web.com> CNAME
  
  ![6](./imagenes/6.PNG)
  
-7. dig -x <IP_host>
+ En mi ejemplo google.com no tiene alias pero usaundo otra pagina si que me sale con alias , la pagina que use fue ionos. 
+ 
+  ![9](./imagenes/9.PNG)
+ 
+Pero si lo hacia sin las 3 w no me da ningun alias ya que el alis que nos indica es si las 3 w.
+
+ ![91](./imagenes/9_1.PNG)
+ 
+7.dig -x <IP_host>
 
 ![7](./imagenes/7.PNG)
 
 ![71](./imagenes/7_1.PNG)
 
-8. dig <nombre_web.com> ANY
+8.dig <nombre_web.com> ANY
 
 ![8](./imagenes/8.PNG)
 
