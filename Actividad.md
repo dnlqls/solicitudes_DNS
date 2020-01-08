@@ -18,15 +18,15 @@ Esa pagina tiene un servidor de correo ? para saberlo introduciremos el siguient
 
         dig <nombre_web.com> MX
 
-Ahora vamos ha ver que servidor DNS de zona le preguntamos por la pagina web , esto lo consegimos ejecutando esto :
+Ahora vamos ha ver que servidor DNS el que manaeja los registros de recuerso de la pagina web , esto lo consegimos ejecutando esto :
 
         dig <nombre_web.com> SOA
         
-Veremos el nombre de servidor DNS 
+Veremos el nombre o nombres de servidor DNS de la pagina web , con el siguiente comando: 
 
         dig <nombre_web.com> NS
 
-Para saver si utiliza un alias el servidor DNS , es poniendo :
+Para saber si utiliza un alias el servidor DNS , es poniendo :
 
         dig <nombre_web.com> CNAME
 
@@ -34,9 +34,10 @@ Para hacer la conversion de direcion IP a nombre es con :
 
         dig -x <IP_host> 
 
-Para ver todos los registros DNS 
+Para ver todos los registros DNS de la pagina web , ejecutando este comando : 
 
         dig <nombre_web.com> ANY
+        
 ## Ejemplos
 
 usaundo google.com
