@@ -1,0 +1,5 @@
+## historia del DNS
+<https://www.defectodigital.com.mx/dns-explicado/>
+En los años 70s internet se llama ARPANET y no funcionava con el protocolo que se usasn en la actualidad , solo disponian de 256 direciones disponibles y todo los usuariso teneia una hoja con las direciones de los servidores que estaban en aquel entonce , tampoco era internacional .
+
+En el año 1978 se sustituyo el protocolo que estaba por el TCP/IP para poder disponer de mas direciones ya que empezaba a ser internacional con lo cual en la universidad de stanford se creo un archivo llamado HOSTS.TXT donde querian que los usuarios les fuera más sencillo lo de haceder a los nuevos servidores que van apareciendo.
