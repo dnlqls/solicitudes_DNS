@@ -38,9 +38,9 @@ Para ver todos los registros DNS de la pagina web , ejecutando este comando :
 
         dig <nombre_web.com> ANY
         
-## Ejemplos
+## Actividad
 
-usaundo google.com
+Realiza las siguientes comprobaciones con el comando dig usaundo google.com.
 
 1. dig google.com A
 
