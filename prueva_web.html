@@ -2,7 +2,10 @@
 <html lang="es">
 <head>
 <meta charset="utf-8"/>
-	
+
+<title>Uso de metodologías ágiles - Publicar tu web usando Github</title>
+<meta name="author" content="(Francisco Javier Perales Pastor)"/>
+<!-- Desde aqui -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/css/reveal.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/css/theme/white.min.css" id="theme">
 	
@@ -14,11 +17,11 @@
 	link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 	document.getElementsByTagName( 'head' )[0].appendChild( link );
 </script>
+<!-- Hasta aquí. Se debe copiar -->
 
 </head>
 
 	<body>
-	
 <div class="reveal">
 	<div class="slides">
 		<section data-markdown>
@@ -49,7 +52,54 @@
 				</textarea>
 			</section>
 		</section>
+		<section>
+			<section data-markdown>
+				<textarea data-template>
+					### Nuestra primera página
+					
+					Lo más habitual es crear un documento *index.html* que contenga la página inicial
+					de nuestra web. Sin embargo por facilidad y rapidez, utilizaremos el archivo
+					README.md y el lenguaje [markdown](https://guides.github.com/features/mastering-markdown) para crear 
+					nuestra primera página.
+				</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					En la página principal del repositorio, pulsamos en el enlace `[settings]`.					
+					Esto nos da acceso a la página de configuración del repositorio.
+					
+					![](./imagenes/sitioweb1.png)
+				</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					Bajamos hasta el apartado GitHub Pages, y en el subapartado Source tenemos un botón para seleccionar la rama/carpeta
+					donde se ubican los documentos.	Cambiamos `none` por `master branch` y pulsamos en el botón `[Save]`
+					para activar el generador de páginas.
+					
+					![](./imagenes/sitioweb2.png)
+				</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					Pulsando sobre el botón `[Choose Theme] podemos seleccionar facilmente una plantilla web
+					para aplicar a nuestra página.
+					
+					![](./imagenes/sitioweb3.png)
 
+				</textarea>
+			</section>
+		</section>
+		<section data-markdown>
+			<textarea data-template>
+				# ¿PREGUNTAS?
+			</textarea>
+		</section>
+	</div>
+</div>
+
+
+<!-- Los scripts de aquí abajo también se deben copiar -->
 <script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/js/reveal.min.js"></script>
 <script>
 
@@ -74,6 +124,7 @@
 			});
 
 		</script>
-		
-		</body>
+
+
+</body>
 </html>
