@@ -66,11 +66,11 @@ usaundo google.com
  
  ![6](./imagenes/6.PNG)
  
- En mi ejemplo google.com no tiene alias pero usaundo otra pagina si que me sale con alias , la pagina que use fue ionos. 
+ En mi ejemplo google.com no tiene alias pero usando otra pagina si que me sale con alias , la pagina que use fue ionos. 
  
   ![9](./imagenes/9.PNG)
  
-Pero si lo hacia sin las 3 w no me da ningun alias ya que el alis que nos indica es si las 3 w.
+Pero si lo hacia sin las 3 w no me da ningun alias ya que el alis que nos indica es con las 3 w.
 
  ![91](./imagenes/9_1.PNG)
  
@@ -88,4 +88,4 @@ Tambien se puede hacer la conversion usando la direcion de IPv6.
 
 ![8](./imagenes/8.PNG)
 
-[Volver a la oagina de inicio](README.md)
+[Volver a la pagina de inicio](README.md)
