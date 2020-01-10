@@ -30,7 +30,7 @@ Para saber si utiliza un alias el servidor DNS , es poniendo :
 
         dig <nombre_web.com> CNAME
 
-Para hacer la conversion de direcion IP a nombre es con :
+Para hacer la conversión de direcion IP a nombre es con :
 
         dig -x <IP_host> 
 
