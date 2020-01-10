@@ -14,7 +14,7 @@ Tambien existe los registro AAAA que lo unico que difiere con los regidtros A es
 
         dig <nombre_web.com> AAAA
 
-Esa pagina tiene un servidor de correo ? para saberlo introduciremos el siguiente comando:
+¿Esa pagina tiene un servidor de correo ? para saberlo introduciremos el siguiente comando:
 
         dig <nombre_web.com> MX
 
