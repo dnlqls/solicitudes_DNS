@@ -30,7 +30,7 @@ Para saber si utiliza un alias el servidor DNS , es poniendo :
 
         dig <nombre_web.com> CNAME
 
-Para hacer la conversion de direcion IP a nombre es con :
+Para hacer la conversión de direcion IP a nombre es con :
 
         dig -x <IP_host> 
 
@@ -38,9 +38,9 @@ Para ver todos los registros DNS de la pagina web , ejecutando este comando :
 
         dig <nombre_web.com> ANY
         
-## Ejemplos
+## Actividad
 
-usaundo google.com
+Realiza las siguientes comprobaciones con el comando dig usaundo google.com.
 
 1. dig google.com A
 
