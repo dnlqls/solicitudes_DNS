@@ -1,48 +1,46 @@
 # Actividad de Registro
 
->Usando el comando dig en los sistemas operativos Linux:
+>usuado el comando dig en los sistemas operativos Linux
 
     dig <server o ipserver> <Tipo de registro>
     
 ## Tipos de registros 
  
-Vamos a ver quién es el host del servidor (ver la dirección IP del servidor DNS de una página web) para ello pondremos:
-
-Piense en una dirección web, (y su IP) la cual, será la que usarás de ejemplo en estos enunciados.
+Vamos a ver quien es el host del servidor(ver la direcion ip del servidor DNS de una pagina web) para ello pondremos:
 
         dig <nombre_web.com> A
 
-También existen los registros AAAA que lo único que se diferencia con los registros A es que en vez de ser IPv4 es en IPv6.
+Tambien existe los registro AAAA que lo unico que difiere con los regidtros A es que en vez de ser IPv4 es en IPv6.
 
         dig <nombre_web.com> AAAA
 
-¿Esa página tiene un servidor de correo? Para saberlo introduciremos el siguiente comando:
+¿Esa pagina tiene un servidor de correo ? para saberlo introduciremos el siguiente comando:
 
         dig <nombre_web.com> MX
 
-Ahora, vamos a ver qué servidor DNS es el que maneja los registros de recursos de la página web, esto lo conseguimos ejecutando esto:
+Ahora vamos ha ver que servidor DNS el que manaeja los registros de recuerso de la pagina web , esto lo consegimos ejecutando esto :
 
         dig <nombre_web.com> SOA
         
-Veremos el nombre o nombres de servidor DNS de la página web, con el siguiente comando: 
+Veremos el nombre o nombres de servidor DNS de la pagina web , con el siguiente comando: 
 
         dig <nombre_web.com> NS
 
-Para saber si utiliza un alias el servidor DNS, utilizamos:
+Para saber si utiliza un alias el servidor DNS , es poniendo :
 
         dig <nombre_web.com> CNAME
 
-Para hacer la conversión de dirección IP a nombre usamos:
+Para hacer la conversion de direcion IP a nombre es con :
 
         dig -x <IP_host> 
 
-Para ver todos los registros DNS de la página web, utilizamos el siguiente comando:
+Para ver todos los registros DNS de la pagina web , ejecutando este comando : 
 
         dig <nombre_web.com> ANY
         
 ## Ejemplos
 
-Usando google.com
+usaundo google.com
 
 1. dig google.com A
 
@@ -68,11 +66,11 @@ Usando google.com
  
  ![6](./imagenes/6.PNG)
  
- En mi ejemplo google.com no tiene alias, pero usando otra página sí sale con alias, la página que usé fue: Ionos. 
+ En mi ejemplo google.com no tiene alias pero usando otra pagina si que me sale con alias , la pagina que use fue ionos. 
  
   ![9](./imagenes/9.PNG)
  
-Pero si lo hacía sin las 3 w no me da ningun alias, ya que, el alias que nos indica son las 3 w.
+Pero si lo hacia sin las 3 w no me da ningun alias ya que el alis que nos indica es con las 3 w.
 
  ![91](./imagenes/9_1.PNG)
  
@@ -82,7 +80,7 @@ Pero si lo hacía sin las 3 w no me da ningun alias, ya que, el alias que nos in
 
 Google usa ese estilo de llamar a sus dispositivos de su red.
 
-También se puede hacer la conversión usando la dirección de IPv6.
+Tambien se puede hacer la conversion usando la direcion de IPv6.
 
 ![71](./imagenes/7_1.PNG)
 
@@ -90,4 +88,4 @@ También se puede hacer la conversión usando la dirección de IPv6.
 
 ![8](./imagenes/8.PNG)
 
-[Volver a la página de Inicio](README.md)
+[Volver a la pagina de inicio](README.md)
