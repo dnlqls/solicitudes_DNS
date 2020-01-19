@@ -24,35 +24,109 @@
 	<div class="slides">
 <!-- <section data-background-color="#000000"> -->
 	<!-- <textarea data-template> -->
+<section data-background-color="#000000">
 	<section data-markdown>
 		<textarea data-template>
-		
-			## hola
-			
-		<section data-markdown>
-			<textarea data-template>
-			## prueba
-			
-		<section data-markdown>
-			<textarea data-template>
-			## coninuacion de prueva 
-			</textarea>
-		</section>
-			</textarea>
-		</section>
-			<section data-markdown>
-				<textarea data-template>
-			## prueba2
-			
-			<section data-markdown>
-				<textarea data-template>
-			## coninuacion de prueva 2
-				</textarea>
-			</section>
-				</textarea>
-			</section>
+			<h1 style="color: green">historia antes del nacimiento del <strong style="color: red">DNS</strong></h1>
 		</textarea>
 	</section>
+</section>
+<section data-background-color="#000000">
+	<section data-markdown>
+		<textarea data-template>
+		<p>Comenzamos viendo que es lo más basico que hace el DNS y como se hacia antes de su existencia</p>
+		<p><b>Nota:</b> habran diapositivas que de debe ir para abajo en vez de ir a la derecha</p>
+			<img src="./DNS/t.png">
+		</textarea>
+	</section>
+</section>
+<section data-background-color="#000000">
+	<section data-markdown>
+		<textarea data-template>
+		<h2 style="color: green">En los años 70</h2>
+			<p style="font-size:40px">se disponia solo de 256 direcciones</p>
+			<p style="font-size:40px">se accedia a paginas web con la dirección ip, para acordarse se uasaba una libreta (la agenda telefonica)</p>
+			<p style="font-size:40px">Internet se llamaba Arpanet</p>
+			<img src="https://www.defectodigital.com.mx/wp-content/uploads/2018/03/DNS1.png" style=width:410px;height:220px>
+		</textarea>
+	</section>
+	<section data-markdown>
+		<textarea data-template>
+		<h2 style="color: green">En los años 80</h2>
+		<p style="font-size:40px">se creo el protocolo TCP/IP ofreciendo mas direcciones</p>
+		<p style="font-size:40px">se diseño el fichero HOSTS.TXT alojado en la universidad de Standord, con la idea de que todo los equipo consultaran automaticamente la diercion de la pagina web</p>
+			<img src="https://www.defectodigital.com.mx/wp-content/uploads/2018/03/DNS2.png" style=width:410px;height:220px>
+		</textarea>
+	</section>
+</section>
+<section data-background-color="#000000">
+	<section data-markdown>
+		<textarea data-template>
+		<h2 style="color: green">Crecimiento de la red</h2>
+		<p style="font-size:40px">Con esto el fichero HOSTS se volvio lento.</p>
+		<p style="font-size:40px">Entoces el ingeniero(Jon Postel) a cargo del fichero estaba en duda sobre 5 propuestas de cambiar el fichero</p>
+			<img src="./DNS/jon.png" style=width:410px;height:220px>
+		</textarea>
+	</section>
+	<section data-markdown>
+		<textarea data-template>
+		<h2 style="color: green">¿que hizo Jon Postel?</h2>
+		<p style="font-size:40px">Le pregunto a su amigo Paul Mockapetris que cual era la mejor propuesta de las 5 que tenia seleccionada.</p>
+		<p style="font-size:40px">Las miro y las tiro a la basura, le propuso hacer algo mejor que esa 5 cosas.</p>
+			<img src="http://1.bp.blogspot.com/-Ei3XyBXV8Cg/U393PHaXG1I/AAAAAAAAAAs/c040aORUmTI/s1600/papelera.gif" style=width:410px;height:220px>
+		<!-- [](https://academy.bit2me.com/wp-content/uploads/2019/05/49_DNS.png) -->
+		</textarea>
+	</section>
+</section>
+<section data-background-color="#000000">
+	<section data-markdown>
+		<textarea data-template>
+		<h2 style="color: green">noviembre del 1983</h2>
+		<p style="font-size:40px">Paul Mockapetris y Jon Postel crearon el sistema DNS, con este sistema ya no hacia falta recordar la dirección ip sino el nombre</p>
+			<img src="https://2.bp.blogspot.com/-K8_8US0b6WY/WSDJ8MxxN-I/AAAAAAAACtk/iSwfSCnsoNkxL8FbOLuRPjNFgms2-SF1ACLcB/s1600/DNS.jpg" style=width:410px;height:220px>
+		</textarea>
+	</section>
+	<section data-markdown>
+		<textarea data-template>
+		<h2 style="color: green">¿como funciona este sistema?</h2>
+		<p style="font-size:40px">Fue diseñado pensando en las personas ya que nos es mas facil recordar un nombre que una dirección ip.</p>
+		<p style="font-size:40px">Ya que la maquina no entiende el nombre el DNS le hace una traducción de nombre a ip.</p>
+		<img src="https://www.alexmilla.net/wp-content/uploads/2019/09/doh-whitebackground1.gif" style=width:410px;height:220px>	
+		</textarea>
+	</section>
+	<section data-markdown>
+		<textarea data-template>
+		<h2 style="color: green">¿como hace la traducción?</h2>
+		<p style="font-size:40px">Nosotros introducimos en la barra de direcciones el nombre ejemplo.es el sistema DNS lo leera .es.ejemplo</p>
+		<p style="font-size:40px">¿Porque hace esto? Es simple para consegir la direcion ip es necesario que pregunte a los servidores raiz que en el nombre se representa con el "." de ".es.ejemplo"</p>
+		</textarea>
+	</section>
+</section>
+<section data-background-color="#000000">
+	<section data-markdown>
+		<textarea data-template>
+		<h2 style="color: green">Servidores raiz</h2>
+		<p style="font-size:40px">Estos servidores contiene informacion de los servidores de primer nivel o TLD.</p>
+		<p style="font-size:40px">Hay 13 de estos servidores raiz y se le pregunta a uno de estos servidores por una pagina nos envian a preguntar a el servidor primaria encargado de los ".es"</p>
+			<img src="https://www.losteatinos.es/images/DNS/servidores_raiz.jpg" style=width:410px;height:220px>
+			<img src="./DNS/raiz.png" style=width:410px;height:220px>
+		</textarea>
+	</section>
+	<section data-markdown>
+		<textarea data-template>
+		<h2 style="color: green">Servidores Pirmarios o TLD</h2>
+		<p style="font-size:40px">Estos servidores contiene de los servidores de segundo nivel, existen 6 tipos de TLD pero los mas usados son los gTLD (.com , .net .org) y los ccTLD(los que identifican un pais como .es , .uk)</p>
+		<p style="font-size:40px">cuando le preguntamos por la pagina "ejemplo.es" nos envia al servidor de 2º nivel que tiene la informacion de la ip de la pagian</p>
+			
+		</textarea>
+	</section>
+</section>
+<!-- <section data-background-image="https://somoskudasai.com/wp-content/uploads/2019/07/id-invaded_3.jpg">
+	<h2>Image</h2>
+</section>
+<section data-background-image="https://66.media.tumblr.com/5dd92ae102ec4349b84a9af5ebfe9133/a74e074a097d24e3-3d/s500x750/d0050a6589b032f4ee2225c8eca49f09e0adae5d.gifv">
+	<h2>Image</h2>
+</section> -->
 	<!-- </textarea> -->		
 <!-- </section> -->
 	</div>
